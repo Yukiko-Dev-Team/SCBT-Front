@@ -7,7 +7,7 @@
         <v-card>
           <v-card-title>
             <v-avatar class="mr-4 mb-2"><v-img :src="report.author.avatar"></v-img></v-avatar>
-            <span class="text-h4 align-self-center"
+            <span class="text-headline-large align-self-center"
               >{{ report.author.displayName }} <br />
               <span class="code" v-if="report.author.isStaff == true"
                 >Staff</span
@@ -55,7 +55,7 @@
                 <v-card v-for="comment in report.comments" :key="comment._id" class="mt-4">
                   <v-card-title>
                     <v-avatar class="mr-4 mb-2"><v-img :src="comment.author.avatar"></v-img></v-avatar>
-            <span class="text-h5 align-self-center"
+            <span class="text-headline-small align-self-center"
               >{{ comment.author.displayName }}
               <span class="code" v-if="comment.author.isStaff == true"
                 >Staff</span
@@ -66,7 +66,7 @@
                     {{ comment.content }}
                   </v-card-text>
               <v-card-actions>
-                 <span class="text-subtitle-2">Posted at: {{ formatDate(comment.createdAt) }}</span>
+                 <span class="text-title-small">Posted at: {{ formatDate(comment.createdAt) }}</span>
               </v-card-actions>
               <hr />
                 </v-card>

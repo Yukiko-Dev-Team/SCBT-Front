@@ -5,7 +5,7 @@
         <v-alert :type='alert.status'>{{ alert.message }}</v-alert>
       </v-col>
       <v-col cols="12">
-        <span class="text-h3">Create a new project!!!</span>
+        <span class="text-display-medium">Create a new project!!!</span>
       </v-col>
       <v-col>
         <v-form>

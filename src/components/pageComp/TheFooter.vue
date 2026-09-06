@@ -1,6 +1,6 @@
 <template>
   <v-footer class="">
-    <v-row justify="center" no-gutters>
+    <v-row class="justify-center" no-gutters>
      <p>
         Code hosted on <a href="https://github.com/Yukiko-Dev-Team">GitHub</a>, Hosting and DNS <a href="https://asthriona.com">Asthriona ltd.</a> <br />
         Version: 1.0.0

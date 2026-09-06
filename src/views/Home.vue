@@ -5,7 +5,7 @@
         <v-img height="100px" src="https://cdn.yukiko.app/web/stellar-logo.png"></v-img>
       </v-col>
       <v-col cols="12" class="justify-center text-center">
-        <span class="text-h2">Active Projects</span>
+        <span class="text-display-large">Active Projects</span>
         <projects />
       </v-col>
       <v-col cols="12">
