@@ -81,11 +81,6 @@
   <pre style="display: none">{{ userStore }}</pre>
 </template>
 
-<script setup>
-import { useUserStore } from "@/store/user";
-// const userStore = useUserStore();
-</script>
-
 <script>
 import { useUserStore } from "@/store/user";
 const userStore = useUserStore();
@@ -133,7 +128,7 @@ export default {
       }, {
         withCredentials: true
       })
-        .then((res) => {
+        .then(() => {
           this.report.comments.push({
             _id: "",
             author: {
