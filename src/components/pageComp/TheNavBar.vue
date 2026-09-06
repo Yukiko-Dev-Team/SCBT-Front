@@ -4,7 +4,7 @@
             <v-app-bar>
                 <router-link to="/">
                     <v-btn class="ml-4">
-                        <span class="text-h5 ">Stellar Corporation</span>
+                        <span class="text-headline-small ">Stellar Corporation</span>
                     </v-btn>
                 </router-link>
                 <v-spacer />

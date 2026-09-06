@@ -18,8 +18,8 @@
             </v-card>
             </v-col>
             <v-col cols="12" v-if="bugs <= 0">
-                <span class="text-h2">No bugs to report!</span> <br />
-                <span class="text-h4">Good Job!</span>
+                <span class="text-display-large">No bugs to report!</span> <br />
+                <span class="text-headline-large">Good Job!</span>
                 <br />
                 <router-link :to="`/project/${project.projectId}/bug/new`">
                     <v-btn>Report a new bug</v-btn>
