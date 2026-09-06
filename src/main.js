@@ -10,6 +10,9 @@ import App from './App.vue'
 // Composables
 import { createApp } from 'vue'
 
+// Styles - layer order declaration must precede Vuetify styles
+import './styles/layers.css'
+
 // Plugins
 import { registerPlugins } from '@/plugins'
 
